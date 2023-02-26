@@ -25,3 +25,5 @@ supervised by [Dr. Fabian
 Sewerin](https://www.mvt.ovgu.de/People/Dr_+Fabian+Sewerin.html).
 
 I strongly believe in open science and open education which is why I created the YouTube channel [Machine Learning & Simulation](https://www.youtube.com/@MachineLearningSimulation) to cover advanced mathematical topics I am passionate about.
+
+[![Kolmogorov Turbuelence Animation](https://ceyron.github.io/files/kolmogorov_animation.gif)](https://www.youtube.com/watch?v=J5cGIuS42-w)
