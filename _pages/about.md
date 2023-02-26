@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my website"
+title: "Hi, I am Felix! 👋"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -10,7 +10,18 @@ redirect_from:
 
 I am PhD student in Computer Science at the Technical University of Munich,
 supervised by [Prof. Nils Thuerey](https://ge.in.tum.de/). My research is on
-differentiabl physics simulators and how to integrate them into the learning
-process of deep neural network. Before, I studied [Computational Science and Engineering (CSE)](https://www.in.tum.de/en/in/fuer-studieninteressierte/master-studiengaenge/computational-science-and-engineering/) at TU Munich with focus on applied numerical methods, high-performance computing and machine learning. During this time, I was fortunate to be supervised by [Dr. Dirk Hartmann](https://www.linkedin.com/in/dirkhartmann) while conducting industrial machine learning research at Siemens Technology as part of my working student position and master thesis. Initially, I studied Mechanical Engineering at the Technical University of Braunschweig from which I graduated with a Bachelor Thesis on explicit-adaptive Finite Volume solvers supervised by [Dr. Fabian Sewerin](https://www.mvt.ovgu.de/People/Dr_+Fabian+Sewerin.html).
+differentiable physics simulators and how to integrate them into the learning
+process of deep neural network. Before, I studied [Computational Science and
+Engineering
+(CSE)](https://www.in.tum.de/en/in/fuer-studieninteressierte/master-studiengaenge/computational-science-and-engineering/)
+at TU Munich with a focus on applied numerical methods, high-performance
+computing and machine learning. During this time, I was fortunate to be
+supervised by [Dr. Dirk Hartmann](https://www.linkedin.com/in/dirkhartmann)
+while conducting industrial machine learning research at Siemens Technology as
+part of my working student position and master thesis. Initially, I studied
+Mechanical Engineering at the Technical University of Braunschweig from which I
+graduated with a bachelor thesis on explicit-adaptive Finite Volume solvers
+supervised by [Dr. Fabian
+Sewerin](https://www.mvt.ovgu.de/People/Dr_+Fabian+Sewerin.html).
 
 I strongly believe in open science and open education which is why I created the YouTube channel [Machine Learning & Simulation](https://www.youtube.com/@MachineLearningSimulation) to cover advanced mathematical topics I am passionate about.
