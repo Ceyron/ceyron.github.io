@@ -1,10 +1,11 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Overview Tables"
+permalink: /tables/
 author_profile: true
 redirect_from:
-  - /resume
+  - /overview-tables
+  - /overviews
 ---
 
 {% include base_path %}
