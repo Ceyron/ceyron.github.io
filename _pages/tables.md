@@ -10,4 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-Test test?
+## Tables on Automatic Differentiation
+
+* [Overview of Explicit Automatic Differentiation Rules](/autodiff-table) for both scalar and tensor operations (forward- and reverse-mode)
+* [Overview of Implicit Automatic Differentiation Rules](/implicit-autodiff-table) like root-finding, (non-)linear system solving, ODE and PDE integration or differentiable optimization (forward- and reverse-mode)
