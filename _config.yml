@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Felix Köhler's Website"
 title_separator          : "-"
-name                     : &name "Felix Köhler"
+name                     : &name "Felix Matteo Köhler"
 description              : &description "My personal homepage."
 url                      : https://ceyron.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Felix Köhler"
+  name             : "Felix Matteo Köhler"
   avatar           : "profile.jpg"
   bio              : "PhD student in Machine Learning 🤖 for Physics Simulations 🌊, and YouTuber 📺."
   location         : "Munich, Germany"
