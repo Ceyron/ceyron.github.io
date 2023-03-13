@@ -15,8 +15,8 @@ main:
   - title: "Technical Blog"
     url: /year-archive/
   
-  - title: "Personal Blog"
-    url: /personal-blog/
+  # - title: "Personal Blog"
+  #   url: /personal-blog/
 
   - title: "Overview Tables"
     url: /tables/
