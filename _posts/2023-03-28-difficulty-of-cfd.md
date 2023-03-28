@@ -141,3 +141,307 @@ one wants to use higher-order methods, one suffers from [Godunov's
 theorem](https://en.wikipedia.org/wiki/Godunov%27s_theorem). As such, a method
 of order greater than one (hence, everything that is not firsr-order upwind)
 will develop oscillations around steep discontinuities.
+
+### The problem with nonlinearity
+
+Since then fluid *advects itself*, the transport term is nonlinear. The
+protopyical example for such a term is the 1D Burgers equation
+
+$$
+\frac{\partial u}{\partial t}
++
+u \frac{\partial u}{\partial x}
+=
+0
+$$
+
+Physically, this equation is prone to build shocks and rarefaction waves.
+However, those are typically not relevant for incompressible Navier-Stokes
+simulations due to the additional continuity constraint. More interesting to us
+is how to solve this nonlinear equation.
+
+If we wanted to integrate our Navier-Stokes equation with the transport term
+treated explicitly, the nonlinearity would be convieniently caputered by the
+time stepping scheme. For example with first-order upwind.
+
+$$
+u_i^{[t+1]}
+\leftarrow
+u_i^{[i]}
+-
+u_i^{[t]}
+\Delta t
+\begin{cases}
+\frac{u_{i}^{[t]} - u_{i-1}^{[t]}}{\Delta x}
+\quad u_i^{[t]} \ge 0
+\\
+\frac{u_{i+1}^{[t]} - u_{i}^{[t]}}{\Delta x}
+\quad u_i^{[t]} < 0
+\end{cases}
+$$
+
+Note that since the 'velocity' of the advection equation is the unknown itself,
+it also affects the wind direction and hence the direction of discretization.
+Also, the CFL condition now becomes time-level dependent
+
+$$
+\Delta t \leq \frac{\Delta x}{\max(|u|)}
+$$
+
+Obviously, for fast flows (often related to high Reynolds numbers) we need small
+time steps.
+
+As auch, one is more often interested in **implicit** discretizations in which
+the solution at the next time step is found as the solution to a (nonlinear)
+system of equations. There are two major approaches:
+
+1. Picard iteration (including the Picard1 method that just leads to one linear
+   system solve per time-step, but introduces a $\mathcal{O}(\Delta t)$ error)
+2. Newton-Raphson iteration
+
+Both are established techniques in scientific computing, but require a lot of
+fine-tuning to work efficiently. One particular difficulty is the solution to
+large sparse linear systems of equations which often are nonlinear for
+advection-dominated problems.
+
+### The difficulty of the saddle point structure
+
+We can also write down the structure of the incompressible Navier-Stokes
+equation as
+
+$$
+\begin{bmatrix}
+\frac{\partial}{\partial t} + (u \cdot \nabla) - \frac{1}{Re} \nabla^2 & - \nabla
+\\
+\nabla \cdot & 0
+\end{bmatrix}
+\begin{bmatrix}
+u
+\\
+p
+\end{bmatrix}
+=
+\begin{bmatrix}
+f
+\\
+0
+\end{bmatrix}
+$$
+
+The two or three momentum equations are represented in the first row of the
+matrix whereas the incompressibility constrain is in the second. This structure
+of problem, with a zero block in the bottom right is called a saddle-point
+problem. It typically arises when using Lagrange multipliers to solves
+constrained equations.
+
+The arising challenge is due to the extremely high condition number of the
+problem. As such, linear solvers applied to this problem will converge very
+slowly. Using effective preconditioners, therefore, is a must. Many popular
+algorithms like *SIMPLE*, *PISO* or *COUPLED* arise as special forms for
+preconditioners found under certain assumptions.
+
+Still, the effective formulation of preconditioners is problem-dependent.
+
+### The challenge of multiple scales
+
+The nonlinearity (and the incompressibility constraint) in the Navier-Stokes
+equation gives rise to turbulence, a chaotic behavior of the fluid. Upon a
+certain Reynolds number, a flow transitions from a laminar state into a
+turbulent state. It becomes more and more turbulent the higher Reynolds number
+is. Since realistic Reynolds numbers are quite high (usually $\gg 10^5$), almost
+all practically relevant flows are turbulent. From the works of Kolmogorov, we
+know that the more turbulent a flow is (i.e., the higher the Reynolds number),
+the finer structure it develops. In order to capture these structures, one needs
+ever finer meshers and smaller time steps. If we did not capture these
+structures, our simulation would be incorrect. [One can
+show](https://www.youtube.com/watch?app=desktop&v=Depe06jFNis) shat the workload
+(e.g., in terms of the number of floating point operations) scales as
+$\mathcal{O}(Re^3)$ rendering the direct numerical simulation of realistic flows
+infeasible on even the fastest supercomputers.
+
+A remedy is the clever usage of a multiscale model, a turbulence model. This is
+a science for itself. There are many well-established robust models, that are
+physically grounded. However, the exact usage of them is highly
+problem-dependent and as every model they are imperfect. If their accuracy
+matches the acceptable tolerance of the simulation, they will work sufficiently.
+
+
+## The structure of (almost) all Navier-Stokes solvers
+
+I really liked the book [Efficient Solvers for Incompressible Flow
+Problems](https://link.springer.com/book/10.1007/978-3-642-58393-3) by Stefan
+Turek. It tries to unify the majority of available algorithms into a
+'Navier-Stokes tree'
+
+![image](https://user-images.githubusercontent.com/27728103/228235324-b561df29-00ea-4c74-9f6a-eb0704ba1734.png)
+
+Let's go through each level
+
+### 1. The fully continuous level
+
+The Navier-Stokes equation is given with the nonlinear advection and the diffusion packed into a
+nonlinear differential operator $N(u)$ to get
+
+$$
+u_t
++
+N(u)u
++
+\nabla p
+=
+f
+,
+\quad
+\nabla \div u = 0
+\quad
+\text{in 2D/3D}
++
+\text{B.C.}
+$$
+
+We can write the differential operator as
+
+$$
+N(u) := (u \cdot \nabla) - \frac{1}{Re} \nabla^2 
+$$
+
+### 2. The time-discrete level
+
+We want to use implicit time stepping mechanisms to be (theoretically) able to
+use any time step size and still be stable. The flow scheme indicates a backward
+eueler (BE) and a Crank-Nicolson (CN) technique. Any influence from a solution at a
+previous time level is absorbed in the new right-hand side $g$. Instead of an
+initial-boundary value problem, we now only have a boundary value problem in
+terms of the solution state at the next time step which reads
+
+$$
+\left[
+    I
+    +
+    \theta k N(u)
+\right]
+u
++
+k \nabla p
+=
+g
+\quad
+\nabla \cdot u = 0
+$$
+
+### 3. The fully discrete level
+
+One can now apply a spatial discretization method of choice to translate the
+boundary-value problem into a fully discrete set of equations
+
+$$
+\left[
+    M
+    +
+    \theta
+    k
+    N(u_h)
+\right]u_h
++
+k B p_h
+=
+g_h
+\quad
+B^Tu_h =0
+$$
+
+together with the mass matrix $M$ and the gradient matrix $B$ whose transpose
+$B^T$ is the divergence matrix. This method is chosen such that the advection is
+treated stabily.
+
+By merging the square backed into one nonlinear function
+
+$$
+S(u_h)
+=
+M
++
+\theta
+k
+N(u_h)
+$$
+
+we can write the coupled system as 
+
+$$
+\begin{aligned}
+S(u_h)u_h + kBp_h &= g_h
+\\
+B^Tu_h &= 0
+\end{aligned}
+$$
+
+### 4. The level of the nonlinear saddle-point solver
+
+The coupled system is
+
+1. nonlinear, because it's system matrix $S$ is not constant, but a function of
+   the unknown $S = S(u_h)$
+2. a saddle-point problem, because it has a zero block in the bottom right
+
+There is no direct solution to either of the problems. Hence, we have to iterate
+in order to find the solution to the problem. Naturally, we have two ways to
+nest the iterations:
+
+1. Treat the nonlinearity in the outer iteration and the saddle point in the
+   inner iteration, which here is referred to as **Galerkin schemes**
+2. Decouple the two equations and thereby solver the saddle point problem in an
+   outer iteration and the nonlinearity in the inner iteration, which here is referred to as **Projection schemes**
+
+### 4.1 Galerkin schemes
+
+If we solve the nonlinear system of equations in terms of a Picard iteration,
+the problem turns into
+
+$$
+\begin{aligned}
+S(u_h^{[k]})u_h^{[k+1]} + kBp_h^{[k+1]} &= g_h
+\\
+B^Tu_h^{[k+1]} &= 0
+\end{aligned}
+$$
+
+For performing one iteration, the system matrix is linearized around the
+previous iterate $S(u_h^{[k]})$. Hence, the system will be just a linear system
+of equation. It is also referred to as an Oseen problem. We have to repeat this
+solution to the linear Oseen problem multiple times (the number of iterates is
+denoted by $L$). There are two major approaches:
+
+### 4.1.1 Exact Schur Complement
+
+Only requires one iteration to solve the Osee problem
+
+In the notation of the book this is called the *CC2D* and *CC3D* for the
+two-dimensional and the three-dimensional case, respectively.
+
+### 4.1.2 Approximate Schur Complement
+
+Requires multiple steps to solve the saddle-point problem
+
+The book calls it the *CP2D* and *CP3D*
+
+### 4.2 Projection schemes
+
+They differentiate between wether to do one or multiple projection solves
+
+### 4.2.1 One Projection Solve
+
+This includes the methods due to Chorin and Van Kan
+
+We can now differentiate wether we do a Picard1 iteration of the Burgers
+equation (which is the sub-problem or apply an error control)
+
+### 4.2.1.1 One Projection Solve with one nonlinear iteration
+
+This introduces a $\mathcal{O}(\Delta t)$ error.
+
+### 4.2.1.2 One Projection Solve and converged nonlinear solve
+
+### 4.2.2 Multiple Projection Solves
+
+This includes the famous *SIMPLE*, *PISO* and *SIMPLEC* schemes.
