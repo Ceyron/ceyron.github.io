@@ -14,6 +14,10 @@ redirect_from:
 
 * [Overview of Explicit Automatic Differentiation Rules](/autodiff-table) for both scalar and tensor operations (forward- and reverse-mode)
 * [Overview of Implicit Automatic Differentiation Rules](/implicit-autodiff-table) like root-finding, (non-)linear system solving, ODE and PDE integration or differentiable optimization (forward- and reverse-mode)
+* [Overview of 1D Convolution Automatic Differentiation
+  Rules](/conv-autodiff-table) with different padding and stride options (only
+  reverse-mode, the forward-mode is straightforward based on the matrix-vector
+  multiplication rule)
 
 ## Tables on Physics-based deep learning
 
