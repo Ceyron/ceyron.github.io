@@ -35,3 +35,4 @@ Below tables are experimental and not yet complete.
 ## Tables on Physics-based deep learning
 
 * [Overview of learning setups for neural predictors](/predictor-learning-setups) like the classical t-step supervised, but also more that involve differentiable physics simulators
+* [Overview of corrector configurations](/corrector-configurations) for neural correctors that are trained to augment coarse solvers
