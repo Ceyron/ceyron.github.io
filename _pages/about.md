@@ -9,7 +9,8 @@ redirect_from:
 ---
 
 I am a PhD student in Computer Science at the Technical University of Munich,
-supervised by [Prof. Nils Thuerey](https://ge.in.tum.de/). My research is on
+supervised by [Prof. Nils Thuerey](https://ge.in.tum.de/) and funded by the
+[Munich Center for Machine Learning (MCML)](https://mcml.ai/). My research is on
 differentiable physics simulators and how to integrate them into the learning
 process of deep neural networks. Before that, I studied [Computational Science
 and Engineering
