@@ -36,3 +36,23 @@ Below tables are experimental and not yet complete.
 
 * [Overview of learning setups for neural predictors](/predictor-learning-setups) like the classical t-step supervised, but also more that involve differentiable physics simulators
 * [Overview of corrector configurations](/corrector-configurations) for neural correctors that are trained to augment coarse solvers
+
+## Tables on Fast Fourier Transform (FFT)
+
+* [Relation of functions and their Fourier coefficients in 1d](/fourier-table):
+  shows, for instance
+  1. how the coefficients are scaled
+  2. that a real positive cosine has both positive real coefficients at positive **and** negative
+    wavenumbers
+  3. that a real positive sine has a negative imaginary coefficient at the positive wavenumber and
+    a positive imaginary coefficient at the negative wavenumber
+  4. how imaginary sines and cosines are represented
+  5. how the Nyquist mode glitches at an even number of sampling points
+  6. how higher modes are aliased
+* [Similar table for 2d](/fourier-table-2d): here, we additionally have:
+  1. how the indexing scheme for `np.meshgrid` affects the order of the coefficients
+  2. how the scaling of the coefficients change (N scaling for zero mode, N/2
+     scaling for modes where one axis is the zero mode, N/4 scaling for all
+     other modes (except the Nyquist mode at even numbers of sampling points))
+  3. how the Nyquist mode glitches, especially if one axis has an even number of
+     sampling points and the other an odd number
