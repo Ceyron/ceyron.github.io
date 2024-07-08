@@ -1,7 +1,7 @@
 ---
 title: "Lecture: Automatic Differentiation & Adjoint Methods in Differentiable Physics"
 date: 2024-07-08
-permalink: /autodiff_lecture/
+permalink: /posts/2024/07/autodiff-lecture/
 author_profile: true
 tags:
     - autodiff
