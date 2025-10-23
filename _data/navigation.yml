@@ -18,11 +18,12 @@ main:
   # - title: "Personal Blog"
   #   url: /personal-blog/
 
+  - title: "CV"
+    url: /cv/
+    
   - title: "Overview Tables"
     url: /tables/
     
-  - title: "CV"
-    url: /cv/
     
   # - title: "Guide"
   #   url: /markdown/
