@@ -34,17 +34,16 @@ advanced mathematical topics I am passionate about.
 
 ## Publications
 
-![Emulator Superiority Teaser](/files/emu-sup-teaser.svg){: .align-left width="200px"}
+![Emulator Superiority Teaser](/files/emu-sup-teaser.svg){: .align-left width="300px"}
 **Neural Emulator Superiority: When Machine Learning for PDEs Surpasses its Training Data**  
 ***Felix Koehler**, Nils Thuerey*
 
 NeurIPS 2025
-
 [\[Paper\]](https://neurips.cc/virtual/2025/poster/116770) [\[Code\]](https://github.com/tum-pbs/emulator-superiority) [\[Project Page\]](https://tum-pbs.github.io/emulator-superiority)
 <br clear="all"/>
 
 
-![PRDP Teaser](/files/prdp-teaser.jpg){: .align-left width="200px"}
+![PRDP Teaser](/files/prdp-teaser.jpg){: .align-left width="300px"}
 **PRDP: Progressively Refined Differentiable Physics**  
 *Kanishk Bhatia\*, **Felix Koehler**\*, Nils Thuerey*
 
@@ -53,7 +52,7 @@ ICLR 2024
 <br clear="all"/>
 
 
-![APEBench Teaser](/files/apebench-teaser.png){: .align-left width="200px"}
+![APEBench Teaser](/files/apebench-teaser.png){: .align-left width="300px"}
 **APEBench: A Benchmark for Autoregressive Neural Emulators of PDEs**  
 ***Felix Koehler**, Simon Niedermayr, Rüdiger Westermann, Nils Thuerey*
 
