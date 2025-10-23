@@ -34,9 +34,29 @@ advanced mathematical topics I am passionate about.
 
 ## Publications
 
+![Emulator Superiority Teaser](/files/emu-sup-teaser.svg){: .align-left width="200px"}
+**Neural Emulator Superiority: When Machine Learning for PDEs Surpasses its Training Data**  
+***Felix Koehler**, Nils Thuerey*
+
+NeurIPS 2025
+
+[\[Paper\]](https://neurips.cc/virtual/2025/poster/116770) [\[Code\]](https://github.com/tum-pbs/emulator-superiority) [\[Project Page\]](https://tum-pbs.github.io/emulator-superiority)
+<br clear="all"/>
+
+
+![PRDP Teaser](/files/prdp-teaser.jpg){: .align-left width="200px"}
+**PRDP: Progressively Refined Differentiable Physics**  
+*Kanishk Bhatia\*, **Felix Koehler**\*, Nils Thuerey*
+
+ICLR 2024
+[\[Paper\]](https://proceedings.iclr.cc/paper_files/paper/2025/file/7886b89aced4d37dd25a6f32854bf3f9-Paper-Conference.pdf) [\[Code\]](https://github.com/tum-pbs/PRDP) [\[Project Page\]](https://kanishkbh.github.io/prdp-paper/)
+<br clear="all"/>
+
+
 ![APEBench Teaser](/files/apebench-teaser.png){: .align-left width="200px"}
 **APEBench: A Benchmark for Autoregressive Neural Emulators of PDEs**  
-***Felix Koehler**, Simon Niedermayr, Rüdiger Westermann, Nils Thuerey* 
-In *Advances in Neural Information Processing Systems (NeurIPS) 38*, 2024.  
+***Felix Koehler**, Simon Niedermayr, Rüdiger Westermann, Nils Thuerey*
+
+NeurIPS 2024
 [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2024/file/d9875ebcf74bccdc5076acab0dbee62c-Paper-Datasets_and_Benchmarks_Track.pdf) [\[Code\]](https://github.com/tum-pbs/apebench) [\[Project Page\]](https://tum-pbs.github.io/apebench-paper/)
 <br clear="all"/>
