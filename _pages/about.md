@@ -34,7 +34,7 @@ advanced mathematical topics I am passionate about.
 
 ## Publications
 
-![APEBench Teaser](/files/apebench-teaser){: .align-left width="200px"}
+![APEBench Teaser](/files/apebench-teaser.png){: .align-left width="200px"}
 **APEBench: A Benchmark for Autoregressive Neural Emulators of PDEs**  
 ***Felix Koehler**, Simon Niedermayr, Rüdiger Westermann, Nils Thuerey* 
 In *Advances in Neural Information Processing Systems (NeurIPS) 38*, 2024.  
