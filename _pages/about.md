@@ -72,10 +72,10 @@ NeurIPS 2024
 
 ## About Me
 
-Besides research, I enjoy cycling 🚴‍♂️, traveling ✈️, reading 📚, and video
+Besides research & education, I enjoy cycling 🚴‍♂️, traveling ✈️, reading 📚, and video
 games 🎮.
 
-My two favorite quote is:
+My favorite quote is:
 
 > The best time to plant a tree was 20 years ago. The second best time is now.
 (Chinese Proverb)
