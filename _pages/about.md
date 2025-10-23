@@ -19,12 +19,12 @@ Before the PhD, I studied [Computational Science and Engineering
 (CSE)](https://www.in.tum.de/en/in/fuer-studieninteressierte/master-studiengaenge/computational-science-and-engineering/)
 at TU Munich with a focus on applied numerical methods, high-performance
 computing and machine learning. During this time, I was fortunate to be
-supervised by [Dr. Dirk Hartmann](https://www.linkedin.com/in/dirkhartmann)
+supervised by [Dirk Hartmann](https://www.linkedin.com/in/dirkhartmann)
 while conducting industrial machine learning research at Siemens Technology as
 part of my working student position and master thesis. Initially, I studied
 Mechanical Engineering at the Technical University of Braunschweig from which I
 graduated with a bachelor thesis on explicit-adaptive finite volume solvers
-supervised by [Dr. Fabian
+supervised by [Fabian
 Sewerin](https://www.mvt.ovgu.de/People/Dr_+Fabian+Sewerin.html).
 
 I strongly believe in open science and open education which is why I created the
