@@ -32,6 +32,16 @@ YouTube channel [Machine Learning &
 Simulation](https://www.youtube.com/@MachineLearningSimulation) to cover
 advanced mathematical topics I am passionate about.
 
+## News
+
+- **September 2025**: My paper ["Neural Emulator Superiority: When Machine
+  Learning for PDEs Surpasses its Training
+  Data"](https://neurips.cc/virtual/2025/poster/116770) has been accepted to
+  NeurIPS 2025! I will be travelling to San Diego 🛩️. Shoot me a message if you want
+  to meet up!
+- **June 2025**: I will be joining Meta Reality Labs for a research internship
+  this summer!
+
 ## Publications
 
 ![Emulator Superiority Teaser](/files/emu-sup-teaser.svg){: .align-left width="300px"}
