@@ -69,3 +69,15 @@ ICLR 2024
 NeurIPS 2024
 [\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2024/file/d9875ebcf74bccdc5076acab0dbee62c-Paper-Datasets_and_Benchmarks_Track.pdf) [\[Code\]](https://github.com/tum-pbs/apebench) [\[Project Page\]](https://tum-pbs.github.io/apebench-paper/)
 <br clear="all"/>
+
+## About Me
+
+Besides research, I enjoy cycling 🚴‍♂️, traveling ✈️, reading 📚, and video
+games 🎮.
+
+My two favorite quote is:
+
+> The best time to plant a tree was 20 years ago. The second best time is now.
+(Chinese Proverb)
+
+![Recent Photo of Me](/files/recent_photo.jpg){: .align-center}
