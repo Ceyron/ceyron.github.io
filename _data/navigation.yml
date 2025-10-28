@@ -11,15 +11,15 @@ main:
     
   # - title: "Portfolio"
   #   url: /portfolio/
-        
-  - title: "Blog"
-    url: /year-archive/
   
   # - title: "Personal Blog"
   #   url: /personal-blog/
 
   - title: "CV"
     url: /cv/
+
+  - title: "Blog"
+    url: /year-archive/
     
   - title: "Overview Tables"
     url: /tables/
