@@ -49,7 +49,7 @@ advanced mathematical topics I am passionate about.
 ***Felix Koehler**, Nils Thuerey*
 
 NeurIPS 2025
-[\[Paper\]](https://neurips.cc/virtual/2025/poster/116770) [\[Code\]](https://github.com/tum-pbs/emulator-superiority) [\[Project Page\]](https://tum-pbs.github.io/emulator-superiority)
+[\[Paper\]](https://arxiv.org/abs/2510.23111) [\[Code\]](https://github.com/tum-pbs/emulator-superiority/tree/main/code) [\[Project Page\]](https://tum-pbs.github.io/emulator-superiority/)
 <br clear="all"/>
 
 
