@@ -11,8 +11,10 @@ redirect_from:
 I am a PhD student in Computer Science at the Technical University of Munich,
 supervised by [Prof. Nils Thuerey](https://ge.in.tum.de/) and funded by the
 [Munich Center for Machine Learning (MCML)](https://mcml.ai/). My research is on
-differentiable physics simulators, neural emulators for PDEs and optimization
-theory. During my PhD, I interned at Meta Reality Labs in Zurich supervised by
+differentiable physics simulators, neural emulators for PDEs, and optimization
+theory. I enjoy working on problems in fluid mechanics, solid mechanics, and
+beyond for applications in science, engineering, and graphics. During my PhD,
+I interned at Meta Reality Labs in Zurich supervised by
 [Ryan Goldade](https://rgoldade.github.io/) working on 3D neural softbody
 emulation under contact.
 
