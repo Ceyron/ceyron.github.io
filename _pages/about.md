@@ -34,6 +34,11 @@ advanced mathematical topics I am passionate about.
 
 ## News
 
+- **November 2025**: I gave a talk at the [RISE ML
+  Seminar](https://www.ri.se/en/learningmachinesseminars/felix-kohler-from-numerical-simulators-of-pdes-to-neural-emulators-and-back)
+  about my recent research on neural emulators for PDEs.
+  ([Recording](https://www.youtube.com/watch?v=olpXyDARMJI&list=PLqLiVcF3GKy1tuQFoDu5QKOM6S33t_4R1&index=1),
+  [More Details](/posts/2025/11/rise-talk/))
 - **September 2025**: My paper ["Neural Emulator Superiority: When Machine
   Learning for PDEs Surpasses its Training
   Data"](https://neurips.cc/virtual/2025/poster/116770) has been accepted to
