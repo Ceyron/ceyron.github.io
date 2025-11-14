@@ -11,9 +11,12 @@ redirect_from:
 I am a PhD student in Computer Science at the Technical University of Munich,
 supervised by [Prof. Nils Thuerey](https://ge.in.tum.de/) and funded by the
 [Munich Center for Machine Learning (MCML)](https://mcml.ai/). My research is on
-differentiable physics simulators, neural emulators for PDEs and optimization
-theory. During my PhD, I interned at Meta Reality Labs in Zurich supervised by
-[Ryan Goldade](https://rgoldade.github.io/).
+differentiable physics simulators, neural emulators for PDEs, and optimization
+theory. I enjoy working on problems in fluid mechanics, solid mechanics, and
+beyond for applications in science, engineering, and graphics. During my PhD,
+I interned at Meta Reality Labs in Zurich supervised by
+[Ryan Goldade](https://rgoldade.github.io/) working on 3D neural softbody
+emulation under contact.
 
 Before the PhD, I studied [Computational Science and Engineering
 (CSE)](https://www.in.tum.de/en/in/fuer-studieninteressierte/master-studiengaenge/computational-science-and-engineering/)
@@ -77,10 +80,10 @@ NeurIPS 2024
 
 ## About Me
 
-Besides research & education, I enjoy cycling 🚴‍♂️, traveling ✈️, reading 📚, and video
+Besides research & education, I enjoy cycling 🚴‍♂️, traveling ✈️, long walks 👣, deep meaningful conversations 💬, reading 📚, and video
 games 🎮.
 
-My favorite quote is:
+I believe in the good of people, and I am an optimist.
 
 > The best time to plant a tree was 20 years ago. The second best time is now.
 (Chinese Proverb)
