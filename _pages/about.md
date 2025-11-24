@@ -65,7 +65,7 @@ NeurIPS 2025
 **PRDP: Progressively Refined Differentiable Physics**  
 *Kanishk Bhatia\*, **Felix Koehler**\*, Nils Thuerey*
 
-ICLR 2024
+ICLR 2025
 [\[Paper\]](https://proceedings.iclr.cc/paper_files/paper/2025/file/7886b89aced4d37dd25a6f32854bf3f9-Paper-Conference.pdf) [\[Code\]](https://github.com/tum-pbs/PRDP) [\[Project Page\]](https://kanishkbh.github.io/prdp-paper/)
 <br clear="all"/>
 
