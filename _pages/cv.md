@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my resume [here](https://ceyron.github.io/files/resume_felix_koehler.pdf) [Last Updated: October 2025]
+You can download my resume
+[here](https://ceyron.github.io/files/resume_felix_koehler.pdf) [Last Updated:
+December 2025]
 
 ### Bio
 
