@@ -75,7 +75,7 @@ ICLR 2025
 ***Felix Koehler**, Simon Niedermayr, Rüdiger Westermann, Nils Thuerey*
 
 NeurIPS 2024
-[\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2024/file/d9875ebcf74bccdc5076acab0dbee62c-Paper-Datasets_and_Benchmarks_Track.pdf) [\[Code\]](https://github.com/tum-pbs/apebench) [\[Project Page\]](https://tum-pbs.github.io/apebench-paper/)
+[\[Paper\]](https://proceedings.neurips.cc/paper_files/paper/2024/file/d9875ebcf74bccdc5076acab0dbee62c-Paper-Datasets_and_Benchmarks_Track.pdf) [\[Code\]](https://github.com/tum-pbs/apebench) [\[Project Page\]](https://tum-pbs.github.io/apebench-paper/) [MCML Blog Post](https://mcml.ai/news/2025-02-11-research-insight-koehler/)
 <br clear="all"/>
 
 ## About Me
