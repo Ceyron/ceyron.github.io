@@ -37,6 +37,11 @@ advanced mathematical topics I am passionate about.
 
 ## News
 
+- **June 2026**: I gave a lecture and practical sessions at the [Workshop on
+  Machine Learning and Automatic Differentiation in `JAX` for Scientific
+  Computing](https://majsc2026.pages.math.unistra.fr/) hosted by the University
+  of Strasbourg. ([Playlist with Recordings](https://www.youtube.com/playlist?list=PLY0otfsORxas),
+  [More Details](/posts/2026/08/jax-ad-workshop/))
 - **November 2025**: I gave a talk at the [RISE ML
   Seminar](https://www.ri.se/en/learningmachinesseminars/felix-kohler-from-numerical-simulators-of-pdes-to-neural-emulators-and-back)
   about my recent research on neural emulators for PDEs.
