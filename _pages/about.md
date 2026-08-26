@@ -37,6 +37,7 @@ advanced mathematical topics I am passionate about.
 
 ## News
 
+- **August 2026**: I graduated from my PhD 🎉 with the dissertation titled "From Numerical Simulators of PDEs to Neural Emulators and Back" ([Thesis](https://arxiv.org/abs/2608.24547),[Defense Recording](https://youtu.be/_2AKVZQPe6U),[Defense Slides](https://fkoehler.site/files/phd_defense_slides.pdf))
 - **June 2026**: I gave a lecture and practical sessions at the [Workshop on
   Machine Learning and Automatic Differentiation in `JAX` for Scientific
   Computing](https://majsc2026.pages.math.unistra.fr/) hosted by the University
