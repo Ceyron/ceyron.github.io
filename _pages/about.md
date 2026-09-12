@@ -8,20 +8,23 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Computer Science at the Technical University of Munich,
-supervised by [Prof. Nils Thuerey](https://ge.in.tum.de/) and funded by the
-[Munich Center for Machine Learning (MCML)](https://mcml.ai/). My research is on
-differentiable physics simulators, neural emulators for PDEs, and optimization
-theory. I enjoy working on problems in fluid mechanics, solid mechanics, and
-beyond for applications in science, engineering, and graphics. During my PhD,
-I interned at Meta Reality Labs in Zurich supervised by
-[Ryan Goldade](https://rgoldade.github.io/) working on 3D neural softbody
-emulation under contact.
+I am a research scientist at [Virdx](https://virdx.com/) (part of
+[QuantCo](https://www.quantco.com/)) where I work on biophysical simulations for
+non-invasive MRI-based cancer diagnostics.
+
+I was a PhD student in Computer Science at the [Technical University of Munich
+(TUM)](https://www.tum.de/), supervised by [Nils Thuerey](https://ge.in.tum.de/)
+and funded by the [Munich Center for Machine Learning (MCML)](https://mcml.ai/).
+My research interestes are in differentiable physics simulators, neural
+emulators for PDEs, inverse problems, and optimization theory. During my PhD, I
+interned at Meta Reality Labs in Zurich supervised by [Ryan
+Goldade](https://rgoldade.github.io/) working on 3D neural softbody emulation
+under contact.
 
 Before the PhD, I studied [Computational Science and Engineering
 (CSE)](https://www.in.tum.de/en/in/fuer-studieninteressierte/master-studiengaenge/computational-science-and-engineering/)
 at TU Munich with a focus on applied numerical methods, high-performance
-computing and machine learning. During this time, I was fortunate to be
+computing, and machine learning. During this time, I was fortunate to be
 supervised by [Dirk Hartmann](https://www.linkedin.com/in/dirkhartmann)
 while conducting industrial machine learning research at Siemens Technology as
 part of my working student position and master thesis. Initially, I studied
@@ -37,7 +40,13 @@ advanced mathematical topics I am passionate about.
 
 ## News
 
-- **August 2026**: I graduated from my PhD 🎉 with the dissertation titled "From Numerical Simulators of PDEs to Neural Emulators and Back" ([Thesis](https://arxiv.org/abs/2608.24547),[Defense Recording](https://youtu.be/_2AKVZQPe6U),[Defense Slides](https://fkoehler.site/files/phd_defense_slides.pdf))
+- **September 2026**: I joined [Virdx](https://virdx.com/) as a research
+  scientist.
+- **August 2026**: I graduated from my PhD 🎉 with the dissertation titled "From
+  Numerical Simulators of PDEs to Neural Emulators and Back".
+  ([Thesis](https://arxiv.org/abs/2608.24547),[Defense
+  Recording](https://youtu.be/_2AKVZQPe6U),[Defense
+  Slides](https://fkoehler.site/files/phd_defense_slides.pdf))
 - **June 2026**: I gave a lecture and practical sessions at the [Workshop on
   Machine Learning and Automatic Differentiation in `JAX` for Scientific
   Computing](https://majsc2026.pages.math.unistra.fr/) hosted by the University
