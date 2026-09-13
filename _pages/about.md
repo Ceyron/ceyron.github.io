@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 I am a research scientist at [Virdx](https://virdx.com/) (part of
-[QuantCo](https://www.quantco.com/)) where I work on biophysical simulations for
+[QuantCo](https://www.quantco.com/)) where I work on biophysical simulations and deep learning systems for
 non-invasive MRI-based cancer diagnostics.
 
 I was a PhD student in Computer Science at the [Technical University of Munich
@@ -27,7 +27,7 @@ at TU Munich with a focus on applied numerical methods, high-performance
 computing, and machine learning. During this time, I was fortunate to be
 supervised by [Dirk Hartmann](https://www.linkedin.com/in/dirkhartmann)
 while conducting industrial machine learning research at Siemens Technology as
-part of my working student position and master thesis. Initially, I studied
+part of my working student position and master thesis. As part of my master's, I did a one semester exchange at KTH Stockholm. Initially, I studied
 Mechanical Engineering at the Technical University of Braunschweig from which I
 graduated with a bachelor thesis on explicit-adaptive finite volume solvers
 supervised by [Fabian
