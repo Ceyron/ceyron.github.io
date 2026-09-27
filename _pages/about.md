@@ -10,7 +10,7 @@ redirect_from:
 
 I am a research scientist at [Virdx](https://virdx.com/) (part of
 [QuantCo](https://www.quantco.com/)) where I work on biophysical simulations and deep learning systems for
-non-invasive MRI-based cancer diagnostics.
+non-invasive tissue characterization using medical imaging.
 
 I was a PhD student in Computer Science at the [Technical University of Munich
 (TUM)](https://www.tum.de/), supervised by [Nils Thuerey](https://ge.in.tum.de/)
