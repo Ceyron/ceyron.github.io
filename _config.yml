@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Felix Köhler's Website"
+title                    : "Felix Koehler's Website"
 title_separator          : "-"
-name                     : &name "Felix Matteo Köhler"
+name                     : &name "Felix Matteo Koehler"
 description              : &description "My personal homepage."
 url                      : https://fkoehler.site # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Felix Matteo Köhler"
+  name             : "Felix Matteo Koehler"
   avatar           : "profile.jpg"
-  bio              : "Research Scientist at Virdx (QuantCo) | ML & Simulation"
+  bio              : "Research Scientist at VIRDX (QuantCo) | ML & Simulation"
   location         : "Munich, Germany"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"

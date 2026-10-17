@@ -15,7 +15,7 @@ redirect_from:
 * [Overview of Explicit Automatic Differentiation Rules](/autodiff-table) for both scalar and tensor operations (forward- and reverse-mode)
 * [Overview of Implicit Automatic Differentiation Rules](/implicit-autodiff-table) like root-finding, (non-)linear system solving, ODE and PDE integration or differentiable optimization (forward- and reverse-mode)
 
-Below tables are experimental and not yet complete.
+The tables below are experimental and not yet complete.
 * [Overview of 1D Convolution Automatic Differentiation
   Rules](/conv-autodiff-table) with different padding and stride options (only
   reverse-mode, the forward-mode is straightforward based on the matrix-vector
@@ -51,7 +51,7 @@ Below tables are experimental and not yet complete.
   6. how higher modes are aliased
 * [Similar table for 2d](/fourier-table-2d): here, we additionally have:
   1. how the indexing scheme for `np.meshgrid` affects the order of the coefficients
-  2. how the scaling of the coefficients change (N scaling for zero mode, N/2
+  2. how the scaling of the coefficients changes (N scaling for zero mode, N/2
      scaling for modes where one axis is the zero mode, N/4 scaling for all
      other modes (except the Nyquist mode at even numbers of sampling points))
   3. how the Nyquist mode glitches, especially if one axis has an even number of

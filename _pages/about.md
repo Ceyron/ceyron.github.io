@@ -8,26 +8,26 @@ redirect_from:
   - /about.html
 ---
 
-I am a research scientist at [Virdx](https://virdx.com/) (part of
+I am a research scientist at [VIRDX](https://virdx.com/) (part of
 [QuantCo](https://www.quantco.com/)) where I work on biophysical simulations and deep learning systems for
 non-invasive tissue characterization using medical imaging.
 
 I was a PhD student in Computer Science at the [Technical University of Munich
 (TUM)](https://www.tum.de/), supervised by [Nils Thuerey](https://ge.in.tum.de/)
 and funded by the [Munich Center for Machine Learning (MCML)](https://mcml.ai/).
-My research interestes are in differentiable physics simulators, neural
+My research interests are in differentiable physics simulators, neural
 emulators for PDEs, inverse problems, and optimization theory. During my PhD, I
 interned at Meta Reality Labs in Zurich supervised by [Ryan
-Goldade](https://rgoldade.github.io/) working on 3D neural softbody emulation
+Goldade](https://rgoldade.github.io/) working on 3D neural soft-body emulation
 under contact.
 
 Before the PhD, I studied [Computational Science and Engineering
 (CSE)](https://www.in.tum.de/en/in/fuer-studieninteressierte/master-studiengaenge/computational-science-and-engineering/)
-at TU Munich with a focus on applied numerical methods, high-performance
+at TUM with a focus on applied numerical methods, high-performance
 computing, and machine learning. During this time, I was fortunate to be
 supervised by [Dirk Hartmann](https://www.linkedin.com/in/dirkhartmann)
 while conducting industrial machine learning research at Siemens Technology as
-part of my working student position and master thesis. As part of my master's, I did a one semester exchange at KTH Stockholm. Initially, I studied
+part of my working student position and master thesis. As part of my master's, I did a one-semester exchange at KTH Stockholm. Initially, I studied
 Mechanical Engineering at the Technical University of Braunschweig from which I
 graduated with a bachelor thesis on explicit-adaptive finite volume solvers
 supervised by [Fabian
@@ -47,12 +47,12 @@ advanced mathematical topics I am passionate about.
   NeurIPS 2026! ([Paper](https://arxiv.org/abs/2610.17221),
   [Code](https://github.com/psetinek/multi-fidelity-neural-surrogates)) I will
   be traveling to Sydney 🛩️🦘. Shoot me a message if you want to meet up!
-- **September 2026**: I joined [Virdx](https://virdx.com/) as a research
+- **September 2026**: I joined [VIRDX](https://virdx.com/) as a research
   scientist.
 - **August 2026**: I graduated from my PhD 🎉 with the dissertation titled "From
   Numerical Simulators of PDEs to Neural Emulators and Back".
-  ([Thesis](https://arxiv.org/abs/2608.24547),[Defense
-  Recording](https://youtu.be/_2AKVZQPe6U),[Defense
+  ([Thesis](https://arxiv.org/abs/2608.24547), [Defense
+  Recording](https://youtu.be/_2AKVZQPe6U), [Defense
   Slides](https://fkoehler.site/files/phd_defense_slides.pdf))
 - **June 2026**: I gave a lecture and practical sessions at the [Workshop on
   Machine Learning and Automatic Differentiation in `JAX` for Scientific
@@ -71,7 +71,7 @@ advanced mathematical topics I am passionate about.
 - **September 2025**: My paper ["Neural Emulator Superiority: When Machine
   Learning for PDEs Surpasses its Training
   Data"](https://neurips.cc/virtual/2025/poster/116770) has been accepted to
-  NeurIPS 2025! I will be travelling to San Diego 🛩️. Shoot me a message if you want
+  NeurIPS 2025! I will be traveling to San Diego 🛩️. Shoot me a message if you want
   to meet up!
 - **June 2025**: I will be joining Meta Reality Labs for a research internship
   this summer!
