@@ -40,6 +40,13 @@ advanced mathematical topics I am passionate about.
 
 ## News
 
+- **September 2026**: Our paper ["Compute-optimal data scaling for neural
+  surrogates via multi-fidelity
+  training"](https://psetinek.github.io/multi-fidelity-neural-surrogates/) with
+  [Paul Setinek](https://www.linkedin.com/in/paul-setinek/) has been accepted to
+  NeurIPS 2026! ([Paper](https://arxiv.org/abs/2610.17221),
+  [Code](https://github.com/psetinek/multi-fidelity-neural-surrogates)) I will
+  be traveling to Sydney 🛩️🦘. Shoot me a message if you want to meet up!
 - **September 2026**: I joined [Virdx](https://virdx.com/) as a research
   scientist.
 - **August 2026**: I graduated from my PhD 🎉 with the dissertation titled "From
@@ -71,7 +78,15 @@ advanced mathematical topics I am passionate about.
 
 </details>
 
-## Publications
+## Selected Publications
+
+![Multi-Fidelity Teaser](/files/multi-fidelity-teaser.png){: .align-left width="300px"}
+**Compute-optimal data scaling for neural surrogates via multi-fidelity training**  
+*Paul Setinek\*, Fabian Paischer, Nils Thuerey, Johannes Brandstetter, **Felix Koehler**\**
+
+NeurIPS 2026
+[\[Paper\]](https://arxiv.org/abs/2610.17221) [\[Code\]](https://github.com/psetinek/multi-fidelity-neural-surrogates) [\[Project Page\]](https://psetinek.github.io/multi-fidelity-neural-surrogates/)
+<br clear="all"/>
 
 ![Emulator Superiority Teaser](/files/emu-sup-teaser.svg){: .align-left width="300px"}
 **Neural Emulator Superiority: When Machine Learning for PDEs Surpasses its Training Data**  
