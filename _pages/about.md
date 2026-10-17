@@ -52,6 +52,10 @@ advanced mathematical topics I am passionate about.
   Computing](https://majsc2026.pages.math.unistra.fr/) hosted by the University
   of Strasbourg. ([Playlist with Recordings](https://www.youtube.com/playlist?list=PLY0otfsORxas),
   [More Details](/posts/2026/08/jax-ad-workshop/))
+
+<details markdown="1">
+<summary>Older news</summary>
+
 - **November 2025**: I gave a talk at the [RISE ML
   Seminar](https://www.ri.se/en/learningmachinesseminars/felix-kohler-from-numerical-simulators-of-pdes-to-neural-emulators-and-back)
   about my recent research on neural emulators for PDEs.
@@ -64,6 +68,8 @@ advanced mathematical topics I am passionate about.
   to meet up!
 - **June 2025**: I will be joining Meta Reality Labs for a research internship
   this summer!
+
+</details>
 
 ## Publications
 

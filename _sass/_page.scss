@@ -399,3 +399,23 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+
+/*
+   Collapsible sections (e.g. older news)
+   ========================================================================== */
+
+details {
+  margin-top: 0.5em;
+
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: $link-color;
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: underline;
+    }
+  }
+}
